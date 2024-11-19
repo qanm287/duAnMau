@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#C1F3F4"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_weight="7.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#C1F3F4"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_TVmatv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123fd"/>
+            <TextView
+                android:id="@+id/tv_TVhoTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123fd"/>
+            <TextView
+                android:id="@+id/tv_TVNamSinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123fd"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#C1F3F4"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/img_edit_tv"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:id="@+id/img_delete_tv"
+            android:src="@drawable/ic_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

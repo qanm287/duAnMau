@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ThongKeDoanhThuFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bat dau tu"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/edt_tkStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chon ngay bat dau"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Den"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/edt_tkEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chon ngay ket thuc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THỐNG KÊ"/>
+        <TextView
+            android:id="@+id/tv_tienThongKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000000VNĐ"
+            android:padding="20dp"
+            android:textSize="19sp"
+            android:textColor="#E70909"/>
+    </LinearLayout>
+
+</LinearLayout>
